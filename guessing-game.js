@@ -58,6 +58,10 @@ let askGuess = function(){
     });
     
 }
+
+/*
+this is a comment
+*\
             console.log(`I'm thinking of a number between ${min} and ${max}...`);
             askGuess()
         });

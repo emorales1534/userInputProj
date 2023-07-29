@@ -33,7 +33,7 @@ let checkGuess = function(answer){
 };
 let enterMin = function(){
     rl.question('Enter a min number: ', answer)
-}
+};
 // let askGuess = function(){
 //     rl.question('Enter a guess: ', answer => {
 //         if(!(checkGuess(Number(answer)))){

@@ -28,7 +28,7 @@ let askRange = function(){
         rl.question('Enter a max number: ', answer =>{
             max = Number(answer);
             let secretNumber = (randomInRange(min, max));
-            
+                
 let checkGuess = function(num){
     if(num > secretNumber){
         console.log('Too high');
@@ -59,17 +59,10 @@ let askGuess = function(){
     
 }
 
-/*
-this is a comment
-*\
             console.log(`I'm thinking of a number between ${min} and ${max}...`);
             askGuess()
         });
     });
 };
 
-askRange()
-
-
-
-// askGuess()
+// askRange()

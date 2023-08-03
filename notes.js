@@ -50,11 +50,13 @@
 //     // console.log(list.sort());
 //     // console.log(list.sort((a, b) => a - b))
 
-class MyClass {};
+class MyClass {}
+
+// another MyClass
 
 class AnotherMyClass extends Object {};
 
-class MyChildClass extends Myclass {};
+class MyChildCLass extends MyClass {};
 
 class Animal {
     constructor(name, sound){
@@ -62,18 +64,19 @@ class Animal {
         this.sound = sound;
     }
 
-    speak() {
+    speak(){
         console.log(this.sound)
     }
 
-    static pet(animal){
-        console.log(`You attempt to pet ${animal.name}.`)
+    static pet(animal) {
+        console.log(`You attempted to pet ${animal.name}`);
     }
 }
 
 class Dog extends Animal {
+
 }
 
-const fluffy = new Dog('Fluffy', 'Woof');
+const fluffy = new Dog('Fluffy', 'woof');
 fluffy.speak();
-Dog.pet(fluffy);
+Dog.pet(fluffy)
